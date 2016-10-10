@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420071371DAA855A005B5647 /* PrintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 420071361DAA855A005B5647 /* PrintHelper.m */; };
 		64757B581DA79971007CCA62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B571DA79971007CCA62 /* main.m */; };
 		64757B5B1DA79971007CCA62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B5A1DA79971007CCA62 /* AppDelegate.m */; };
 		64757B5E1DA79971007CCA62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B5D1DA79971007CCA62 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		64757B661DA79971007CCA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64757B641DA79971007CCA62 /* LaunchScreen.storyboard */; };
 		64757B711DA79971007CCA62 /* BluetoothPrinterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B701DA79971007CCA62 /* BluetoothPrinterTests.m */; };
 		64757B7C1DA79971007CCA62 /* BluetoothPrinterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B7B1DA79971007CCA62 /* BluetoothPrinterUITests.m */; };
+		64757B8A1DA7999B007CCA62 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64757B891DA7999B007CCA62 /* CoreBluetooth.framework */; };
+		64757B8D1DA799BB007CCA62 /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B8C1DA799BB007CCA62 /* BluetoothManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		420071351DAA855A005B5647 /* PrintHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintHelper.h; sourceTree = "<group>"; };
+		420071361DAA855A005B5647 /* PrintHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintHelper.m; sourceTree = "<group>"; };
 		64757B531DA79971007CCA62 /* BluetoothPrinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothPrinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64757B571DA79971007CCA62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64757B591DA79971007CCA62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		64757B771DA79971007CCA62 /* BluetoothPrinterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothPrinterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64757B7B1DA79971007CCA62 /* BluetoothPrinterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothPrinterUITests.m; sourceTree = "<group>"; };
 		64757B7D1DA79971007CCA62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64757B891DA7999B007CCA62 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		64757B8B1DA799BB007CCA62 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		64757B8C1DA799BB007CCA62 /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+		64757B941DA79F7C007CCA62 /* BluetoothCenterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothCenterDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64757B8A1DA7999B007CCA62 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +111,11 @@
 		64757B551DA79971007CCA62 /* BluetoothPrinter */ = {
 			isa = PBXGroup;
 			children = (
+				64757B941DA79F7C007CCA62 /* BluetoothCenterDelegate.h */,
+				64757B8B1DA799BB007CCA62 /* BluetoothManager.h */,
+				64757B8C1DA799BB007CCA62 /* BluetoothManager.m */,
+				420071351DAA855A005B5647 /* PrintHelper.h */,
+				420071361DAA855A005B5647 /* PrintHelper.m */,
 				64757B591DA79971007CCA62 /* AppDelegate.h */,
 				64757B5A1DA79971007CCA62 /* AppDelegate.m */,
 				64757B5C1DA79971007CCA62 /* ViewController.h */,
@@ -117,6 +132,7 @@
 		64757B561DA79971007CCA62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64757B891DA7999B007CCA62 /* CoreBluetooth.framework */,
 				64757B571DA79971007CCA62 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -271,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64757B5E1DA79971007CCA62 /* ViewController.m in Sources */,
+				420071371DAA855A005B5647 /* PrintHelper.m in Sources */,
 				64757B5B1DA79971007CCA62 /* AppDelegate.m in Sources */,
+				64757B8D1DA799BB007CCA62 /* BluetoothManager.m in Sources */,
 				64757B581DA79971007CCA62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +514,7 @@
 				64757B821DA79971007CCA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64757B831DA79971007CCA62 /* Build configuration list for PBXNativeTarget "BluetoothPrinterTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				64757B851DA79971007CCA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64757B861DA79971007CCA62 /* Build configuration list for PBXNativeTarget "BluetoothPrinterUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				64757B881DA79971007CCA62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

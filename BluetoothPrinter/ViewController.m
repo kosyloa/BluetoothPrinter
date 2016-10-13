@@ -129,7 +129,7 @@ static NSInteger const kMaxCount = 32;
 
   NSData *nameData = [@"TOTAL $ 10.5"  dataUsingEncoding:enc];
   [cmmData appendData:nameData];
-  [cmmData appendData:[PrintHelper printerPaperFeed:3]];
+  [cmmData appendData:[PrintHelper printerPaperFeed:1]];
   [self.bluetoothManager writeValue:peripherial data:cmmData];
   }
   

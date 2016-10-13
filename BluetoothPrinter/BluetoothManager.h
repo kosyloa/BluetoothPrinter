@@ -34,4 +34,5 @@
 - (void)connectPeripheral:(CBPeripheral *)peripheral;
 
 - (void)writeValue:(CBPeripheral *)peripheral data:(NSData *)data;
+
 @end

@@ -10,7 +10,7 @@
 		420071371DAA855A005B5647 /* PrintHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 420071361DAA855A005B5647 /* PrintHelper.m */; };
 		64757B581DA79971007CCA62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B571DA79971007CCA62 /* main.m */; };
 		64757B5B1DA79971007CCA62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B5A1DA79971007CCA62 /* AppDelegate.m */; };
-		64757B5E1DA79971007CCA62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B5D1DA79971007CCA62 /* ViewController.m */; };
+		64757B5E1DA79971007CCA62 /* PRintersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64757B5D1DA79971007CCA62 /* PRintersViewController.m */; };
 		64757B611DA79971007CCA62 /* Printer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64757B5F1DA79971007CCA62 /* Printer.storyboard */; };
 		64757B631DA79971007CCA62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64757B621DA79971007CCA62 /* Assets.xcassets */; };
 		64757B661DA79971007CCA62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64757B641DA79971007CCA62 /* LaunchScreen.storyboard */; };
@@ -44,8 +44,8 @@
 		64757B571DA79971007CCA62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64757B591DA79971007CCA62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64757B5A1DA79971007CCA62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64757B5C1DA79971007CCA62 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64757B5D1DA79971007CCA62 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64757B5C1DA79971007CCA62 /* PRintersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRintersViewController.h; sourceTree = "<group>"; };
+		64757B5D1DA79971007CCA62 /* PRintersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRintersViewController.m; sourceTree = "<group>"; };
 		64757B601DA79971007CCA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Printer.storyboard; sourceTree = "<group>"; };
 		64757B621DA79971007CCA62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64757B651DA79971007CCA62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -116,8 +116,8 @@
 				420071361DAA855A005B5647 /* PrintHelper.m */,
 				64757B591DA79971007CCA62 /* AppDelegate.h */,
 				64757B5A1DA79971007CCA62 /* AppDelegate.m */,
-				64757B5C1DA79971007CCA62 /* ViewController.h */,
-				64757B5D1DA79971007CCA62 /* ViewController.m */,
+				64757B5C1DA79971007CCA62 /* PRintersViewController.h */,
+				64757B5D1DA79971007CCA62 /* PRintersViewController.m */,
 				64757B5F1DA79971007CCA62 /* Printer.storyboard */,
 				64757B621DA79971007CCA62 /* Assets.xcassets */,
 				64757B641DA79971007CCA62 /* LaunchScreen.storyboard */,
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64757B5E1DA79971007CCA62 /* ViewController.m in Sources */,
+				64757B5E1DA79971007CCA62 /* PRintersViewController.m in Sources */,
 				420071371DAA855A005B5647 /* PrintHelper.m in Sources */,
 				64757B5B1DA79971007CCA62 /* AppDelegate.m in Sources */,
 				64757B8D1DA799BB007CCA62 /* BluetoothManager.m in Sources */,

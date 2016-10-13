@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PRintersViewController.h
 //  BluetoothPrinter
 //
 //  Created by aleksey kosylo on 07/10/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface PRintersViewController : UIViewController
 
 
 @end

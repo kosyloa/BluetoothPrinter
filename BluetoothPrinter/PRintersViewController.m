@@ -1,12 +1,12 @@
 //
-//  ViewController.m
+//  PRintersViewController.m
 //  BluetoothPrinter
 //
 //  Created by aleksey kosylo on 07/10/16.
 //  Copyright © 2016 Cube Innovations Inc. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PRintersViewController.h"
 #import "BluetoothManager.h"
 #import "PrintHelper.h"
 
@@ -27,7 +27,7 @@ static NSInteger const kMaxCount = 32;
 
 @end
 
-@interface ViewController ()<BluetoothManagerDelegate, UITableViewDelegate, UITableViewDataSource>
+@interface PRintersViewController ()<BluetoothManagerDelegate, UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) BluetoothManager *bluetoothManager;
 @property (nonatomic, strong) NSArray<CBPeripheral *> *printerArrary;
@@ -35,7 +35,7 @@ static NSInteger const kMaxCount = 32;
 
 @end
 
-@implementation ViewController
+@implementation PRintersViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];
